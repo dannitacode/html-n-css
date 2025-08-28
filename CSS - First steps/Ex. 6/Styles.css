@@ -1,0 +1,14 @@
+/* Cambios de estilo h1,h2 y parrafos.*/
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: green;
+}
+
+p {
+    font-family: Arial;
+    font-weight: bold;
+    color: black;
+}

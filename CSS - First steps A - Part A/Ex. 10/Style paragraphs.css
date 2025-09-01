@@ -1,0 +1,27 @@
+/*Se cambia estilo de la primera letra de los parrafos*/
+p.informativo::first-letter {
+    
+    font-family: Georgia;
+    font-size: 20px;
+    color: purple;
+    
+}
+p.reflexivo::first-letter {
+    
+    font-family: Arial;
+    font-size: 20px;
+    color: orange;
+    
+}
+p.narrativo::first-letter {
+    
+    font-family: Comic Sans MS;
+    font-size: 20px;
+    color: green;
+
+}
+p.compuesto::first-letter {
+    font-family: Georgia;
+    font-size: 20px;
+    color: hotpink;
+}

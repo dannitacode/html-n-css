@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Who's Lana Del Rey?</title>
+    <style>
+        h1 {
+            color: red;
+            font-family: Arial;
+            font-size: 30px;
+        }
+
+        p {
+            color: orange;
+            text-align: justify;
+            line-height: 2;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Lana Del Rey</h1>
+    <p>Lana Del Rey, nacida como Elizabeth Woolridge Grant el 21 de junio de 1985 en Nueva York, es una cantautora
+        estadounidense reconocida por su música melancólica, su estilo visual cinematográfico y sus referencias a la
+        cultura pop y al glamour americano de mediados del siglo XX. Tras superar problemas con el alcohol en su
+        adolescencia y asistir a la Universidad Fordham, comenzó su carrera musical bajo el nombre de Lizzy Grant, para
+        luego adoptar el nombre artístico Lana Del Rey y lograr reconocimiento internacional con su segundo álbum, Born
+        to Die (2012). Ha publicado varios álbumes de éxito, escrito un libro de poesía y recibido múltiples
+        nominaciones a los Grammy, consolidándose como una de las artistas más influyentes de su generación.
+    </p>
+
+
+</body>
+
+</html>

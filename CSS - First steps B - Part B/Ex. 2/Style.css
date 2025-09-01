@@ -1,0 +1,9 @@
+.img3 img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: double;
+    height: 200px;
+    width: 200px;   
+   
+}

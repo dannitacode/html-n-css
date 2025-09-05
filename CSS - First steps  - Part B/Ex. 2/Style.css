@@ -1,9 +1,14 @@
-.img3 img {
+.img3.hor {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    border-style: double;
-    height: 200px;
-    width: 200px;   
-   
+    height: 300px;
+    width: 200px;
+    border: 2px solid black;
+    flex-direction: row;
+}
+.img3.ver {
+    display: flex;
+    height: 300px;
+    width: 200px;
+    border: 2px solid black;
+    flex-direction: column;
 }

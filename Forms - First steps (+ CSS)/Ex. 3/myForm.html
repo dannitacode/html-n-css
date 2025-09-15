@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My form</title>
+    <style>
+        form {
+            display: flex;
+            flex-direction: column;
+            width: fit-content;
+            gap: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form method="get">
+        <label for="nombre">Ingrese su nombre:</label>
+        <input type="text" name="nombre" pattern="[A-Za-z]{4,}" title="Más de 4 carácteres, no numeros" required autocomplete="off">
+        <label for="edad">Ingrese su edad:</label>
+        <input type="number" name="edad" min="18" max="30" required autocomplete="off">
+        <label for="email">Ingrese su correo electrónico:</label>
+        <input type="email" name="email" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required autocomplete="off">
+        <input type="submit" value="Validar"> <!-- Revisar patrón, sujeto a cambios -->
+    </form>
+</body>
+</html>

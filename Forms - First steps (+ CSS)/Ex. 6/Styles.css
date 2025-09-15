@@ -1,0 +1,26 @@
+form{
+    display: flex;
+    flex-direction: column;
+    border: outset;
+    border-radius: 20px;
+    width: 500px;
+    padding: 2%;
+    gap: 10px;
+    font-family: Arial,sans-serif;
+    color: rgb(66, 65, 65);
+}
+.eva{
+    margin: 2%;
+    color: black;
+}
+.Boton{
+    text-align: center;
+    padding: 2%;
+}
+button{
+    background-color: rgb(71, 161, 71);
+    color: white;
+    border: none;
+    padding: 2% 40%;
+    border-radius: 5px;
+}

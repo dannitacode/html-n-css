@@ -20,8 +20,9 @@
         <label for="edad">Ingrese su edad:</label>
         <input type="number" name="edad" min="18" max="30" required autocomplete="off">
         <label for="email">Ingrese su correo electrónico:</label>
-        <input type="email" name="email" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required autocomplete="off">
-        <input type="submit" value="Validar"> <!-- Revisar patrón, sujeto a cambios -->
+        <!-- Patron que pide al menos 6 carácteres anterior al arroba y al menos 3 posterior al arroba. -->
+        <input type="email" name="email" pattern=".{6,}@.{3,}" required autocomplete="off">
+        <input type="submit" value="Validar">
     </form>
 </body>
 </html>

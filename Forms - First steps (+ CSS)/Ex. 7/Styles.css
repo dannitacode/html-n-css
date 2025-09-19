@@ -31,5 +31,7 @@ input{
     border-right: none;
     border-color: white;
     background-color: rgb(19, 140, 246);
-   
+    &:focus {
+        outline: none;
+    }
 }

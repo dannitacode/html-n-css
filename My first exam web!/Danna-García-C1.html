@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- Danna Valentina García - Comisión 1 -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parcial</title>
+    <style>
+        * {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        form h1 {
+            color: blue;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            font-weight: bold;
+            font-size: large;
+            background-color: rgb(240, 240, 240);
+            border-radius: 20px;
+            width: 280px;
+            padding: 20px 50px 20px 50px;
+            gap: 10px;
+            border: 3px solid blue;
+            box-shadow: 7px 12px 0 rgb(0, 0, 255);
+            position: relative;
+        }
+
+        label + input {
+            border: none;
+            border-bottom: 1px solid blue;
+            background-color: initial;
+        }
+
+        select {
+            border: none;
+            border-bottom: 1px solid blue;
+            background-color: initial;
+            padding-bottom: 5px;
+        }
+
+        textarea {
+            border: none;
+            border-bottom: 1px solid blue;
+            background-color: initial;
+        }
+
+        .botones {
+            display: flex;
+            justify-content: center;
+            gap: 5%;
+            margin-top: 10px;
+        }
+        
+        .botones input {
+            border: none;
+            background-color: black;
+            color: white;
+            border-radius: 5px;
+            padding: 5px 20px;
+            cursor: pointer;
+        }
+
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .encabezado_exterior {
+            color: black;
+            font-size: xx-large;
+            position: absolute;
+            bottom: 100%;
+            left: 10%;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h1 class="encabezado_exterior">Complete sus datos</h1>
+        <h1>Mis datos</h1>
+        <label for="nombre_y_apellido">Nombre y Apellido:</label>
+        <input type="text" name="nombre_y_apellido" pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ ]{10,50}"
+            title="Entre 10 y 50 carácteres, solo letras, no números" required>
+        <label for="genero">Género:</label>
+        <select name="sexo" required>
+            <option value="masculino">Masculino</option>
+            <option value="femenino">Femenino</option>
+            <option value="sexo">Otro</option>
+        </select>
+        <label for="email">Email:</label>
+        <input type="email" name="email" required>
+        <label for="telefono:">Teléfono:</label>
+        <input type="tel" name="telefono">
+        <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+        <input type="date" name="fecha_nacimiento" required min="1960-01-01" max="2010-12-31">
+        <label for="mensaje">Mensaje:</label>
+        <textarea rows="4" cols="25"></textarea>
+        <div class="botones">
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+        </div>
+    </form>
+</body>
+
+</html>
